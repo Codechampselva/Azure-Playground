@@ -1,6 +1,6 @@
  module "windowsservers" {
     source                        = "Azure/compute/azurerm"
-    resource_group_name           = "terraform-advancedvms"
+    resource_group_name           = "terraform-RG"
     location                      = "westus2"
     vm_hostname                   = "mywinvm"
     admin_password                = "Electra321"
